@@ -1,0 +1,45 @@
+# Archivos de compilacion de PyInstaller
+dist/
+build/
+*.spec
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de configuracion del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba
+test_pdfs/
+*.pdf
+
+# Logs
+*.log
+
+# Carpetas de salida del programa
+processed_pdfs/
+OutputImagePdf/
+InputImagePdf/
+
+# Archivos temporales
+temp/
+tmp/
+*.tmp
+
+# Distribuciones
+PDF_Watermark_Remover_Portable/
